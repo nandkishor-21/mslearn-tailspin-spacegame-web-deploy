@@ -97,7 +97,7 @@ stages:
     pool:
       vmImage: 'ubuntu-16.04'
     environment: test
-    variables:
+    variables: 
     - group: 'Release'
     strategy:
       runOnce:
